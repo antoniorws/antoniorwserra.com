@@ -1,0 +1,9 @@
+@font-face {
+    font-family: my-font;
+    src: url(./Ubuntu-R.ttf);
+}
+
+@font-face {
+  font-family: my-font-B;
+  src: url(./Ubuntu-B.ttf);
+}
