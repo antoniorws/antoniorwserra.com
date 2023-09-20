@@ -17,7 +17,7 @@ ul{
 li {
     display: list-item;
     text-align: -webkit-match-parent;
-    width: 3em;
+    margin: 1em;
 }
 
 a {
