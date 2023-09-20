@@ -12,12 +12,19 @@ ul{
     position: relative;
     top: 5px;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 li {
     display: list-item;
     text-align: -webkit-match-parent;
     margin: 1em;
+    
+}
+
+li:hover{
+    transition-duration: 0.3s;
+    opacity: 0.5;
 }
 
 a {
@@ -29,7 +36,7 @@ a {
 }
 
 body{
-    background: #000000eb;
+    background: #000000;
     height: 100%;
     color: white;
     font-family: my-font;
@@ -43,14 +50,31 @@ main {
     margin-top: 5em;
     font-size: 2em;
     transition: margin-left 4s ease-in-out 1s;
+    
+}
+
+.name, .softwareDeveloper{
+    opacity: 0.7;
+}
+
+.softwareDeveloper{
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, rgb(133, 51, 153) 0%, rgb(35, 68, 95) 50%, rgba(64, 224, 208, 0.208) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-style: italic;
 }
 
 .about{
     margin: 5em;
     font-size: 0.5em;
     text-align: justify;
+    background: linear-gradient(135deg, #1d1d1d 0%, #000000 30%);
+    border-radius: 70px;
+    padding: 2em;
 }
-
 
 .title{
     font-size: 1.5em;
