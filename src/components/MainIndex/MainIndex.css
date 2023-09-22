@@ -13,14 +13,21 @@
 
 .name, .softwareDeveloper{
   animation: test;
-  animation-duration: 2s;
+  animation-duration: 3s;
   opacity: 0.7;
+  font-size: 110%;
 }
 
 @keyframes test {
   from {
-    font-size: 0%;
+    opacity: 0;
   }
   to {
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name, .softwareDeveloper{
+    font-size: 150%;
   }
 }
