@@ -3,4 +3,5 @@ Loading...
 
 ## So far
 
-![image](https://github.com/antoniorws/portfolio/assets/18173049/8fa9b2f4-b3ed-4645-ae49-5bb924f6bbd4)
+![image](https://github.com/antoniorws/portfolio/assets/18173049/565fbc74-a2bf-4cbf-a68c-f70a531274f7)
+
