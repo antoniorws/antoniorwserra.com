@@ -6,10 +6,12 @@ function MainIndex(){
         <main>
             <div>
                 <h1 class="name">Antonio Serra</h1>
-                <div class="softwareDeveloper">
-                    <span class="software">Software </span>
-                    <span class="developer">Developer</span>
-                </div>
+                <strong>
+                    <div class="softwareDeveloper">
+                        <span class="software">Software </span>
+                        <span class="developer">Developer</span>
+                    </div>
+                </strong>
             </div>
         </main>
     )
