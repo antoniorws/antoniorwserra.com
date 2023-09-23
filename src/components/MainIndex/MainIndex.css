@@ -12,13 +12,13 @@
 }
 
 .name, .softwareDeveloper{
-  animation: test;
+  animation: showName;
   animation-duration: 3s;
   opacity: 0.7;
   font-size: 110%;
 }
 
-@keyframes test {
+@keyframes showName {
   from {
     opacity: 0;
   }

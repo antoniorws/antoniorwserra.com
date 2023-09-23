@@ -22,17 +22,17 @@ function Articles(){
         });
     }, []);
 
-    return <div class="articles">
-        <main>
+    return <ul class="articles">
          {articles.map(article => (
-            <div class="article" key={article.id}>
-                <h6>{article.title}</h6>
-                <img src={article.cover_image} alt="" />
-                <p>{article.description}</p>
-            </div>
+            <li class="article" key={article.id}>
+                <a href={article.url}>
+                    <img src={article.cover_image} alt="" />
+                    <strong>{article.title}</strong>
+                    <p>{article.description}</p>
+                </a>
+            </li>
         ))}
-        </main>
-    </div>
+    </ul>
 };
 
 export default Articles;
