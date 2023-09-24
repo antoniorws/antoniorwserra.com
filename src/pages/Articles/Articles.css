@@ -1,0 +1,28 @@
+.articles  {
+    height: 100%;
+    flex-wrap: wrap;
+    place-content: center;
+    width: 80vw;
+    gap: 16px;
+    -webkit-box-pack: center;
+}
+
+.articlesListItem{
+    height: 100%;
+    flex-wrap: wrap;
+    place-content: center;
+    width: 80vw;
+    gap: 16px;
+    -webkit-box-pack: center;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+@keyframes showItens {
+    from {
+        opacity: 0;
+    }
+}

@@ -1,4 +1,4 @@
-.article{
+.cardList{
     width: 350px;
     height: auto;
     border-radius: 10px;
@@ -8,46 +8,24 @@
     animation-duration: 1s;
     border: 0.5px solid black;
 }
-.article:hover{
+.cardList:hover{
     border: 0.5px solid;
 }
 
-.article strong{
+.cardList strong{
     color: rgb(183, 183, 183);
     font-size: 1.25rem;
     font-weight: 500;
     padding: 0px 12px;
 }
 
-.article p{
+.cardList p{
     text-align: center;
     opacity: 0.8;
     color: rgb(183, 183, 183);
 }
 
-.article img{
+.cardList img{
     width: 100%;
     border-radius: 10px;
-}
-
-.articles {
-    height: 100%;
-    flex-wrap: wrap;
-    place-content: center;
-    width: 80vw;
-    gap: 16px;
-    -webkit-box-pack: center;
-}
-
-header {
-    margin-bottom: 5%;
-}
-
-@keyframes showItens {
-    from {
-        opacity: 0;
-    }
-    to {
-
-    }
 }

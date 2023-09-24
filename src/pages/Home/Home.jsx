@@ -1,7 +1,7 @@
 import React from 'react';
-import './MainIndex.css';
+import './Home.css';
 
-function MainIndex(){
+function Home(){
     return (
         <main>
             <div>
@@ -17,4 +17,4 @@ function MainIndex(){
     )
 }
 
-export default MainIndex;
+export default Home;

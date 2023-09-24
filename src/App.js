@@ -1,9 +1,9 @@
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from './components/Header/Header';
-import MainIndex from './components/MainIndex/MainIndex';
-import About from './components/About/About';
-import Articles from './components/Articles/Articles';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Articles from './pages/Articles/Articles';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <div className="App">
             <Header/>
             <Switch>
-                <Route path={"/index"} component={MainIndex}/>
+                <Route path={"/index"} component={Home}/>
                 <Route path={"/about"} component={About}/>
                 <Route path={"/articles"} component={Articles}/>
                 <Redirect to={"/index"}/>
