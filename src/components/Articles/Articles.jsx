@@ -24,13 +24,13 @@ function Articles(){
 
     return <ul class="articles">
          {articles.map(article => (
-            <li class="article" key={article.id}>
-                <a href={article.url}>
+            <a target="_blank" href={article.url}>
+                <li class="article" key={article.id}>
                     <img src={article.cover_image} alt="" />
                     <strong>{article.title}</strong>
                     <p>{article.description}</p>
-                </a>
-            </li>
+                </li>
+            </a>
         ))}
     </ul>
 };
