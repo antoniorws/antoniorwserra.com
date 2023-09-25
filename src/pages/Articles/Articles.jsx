@@ -19,7 +19,7 @@ function Articles(){
             const moreArticles = [];
             let count = 0;
             for (count; count < articleData.length; count++) {
-                if(count < 3){
+                if(count < 6){
                     threeArticles.push(articleData[count]);
                 }else{
                     moreArticles.push(articleData[count]);

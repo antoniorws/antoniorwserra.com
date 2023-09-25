@@ -1,4 +1,4 @@
-.articles  {
+.articles, .articlesListItem  {
     height: 100%;
     flex-wrap: wrap;
     place-content: center;
@@ -8,12 +8,6 @@
 }
 
 .articlesListItem{
-    height: 100%;
-    flex-wrap: wrap;
-    place-content: center;
-    width: 80vw;
-    gap: 16px;
-    -webkit-box-pack: center;
     flex-direction: column;
 }
 
