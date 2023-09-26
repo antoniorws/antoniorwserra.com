@@ -1,25 +1,14 @@
-import React , { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import CardList from '../../components/CardList/CardList';
 import './Articles.css'
+import DevTo from '../../hook/DevTo';
 
 function Articles(){
 
-    const [articles, setArticles] = useState([]);
-
-    useEffect(() => {
-        const apiUrl = 'https://dev.to/api/articles?username=antoniorws';
-        axios.get(apiUrl)
-        .then(response => {
-            setArticles(response.data);
-        })
-        .catch(error => {
-            console.error('Error to get articles: ', error);
-        });
-    }, []);
+    const articlesDevTo = DevTo();
 
     return <ul class="articles">
-                {articles.map(article => (
+                {articlesDevTo.map(article => (
                     <CardList article = {article}/>
                 ))}
             </ul>
