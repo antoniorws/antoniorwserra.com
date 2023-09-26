@@ -1,14 +1,10 @@
-.articles, .articlesListItem  {
+.articles  {
     height: 100%;
     flex-wrap: wrap;
     place-content: center;
     width: 80vw;
     gap: 16px;
     -webkit-box-pack: center;
-}
-
-.articlesListItem{
-    flex-direction: column;
 }
 
 header {
