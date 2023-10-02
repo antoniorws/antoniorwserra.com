@@ -5,9 +5,15 @@ Loading...
 
 ## So far
 
-![image](https://github.com/antoniorws/portfolio/assets/18173049/565fbc74-a2bf-4cbf-a68c-f70a531274f7)
+### Home
+![image](https://github.com/antoniorws/antoniorwserra.com/assets/18173049/df9df6b7-c66c-4da1-8a14-ba11178054eb)
 
-## Working on Articles page
+### About
+![image](https://github.com/antoniorws/antoniorwserra.com/assets/18173049/26795ad4-95da-4129-9175-446522ed5a1c)
+
+### Articles
+
+![image](https://github.com/antoniorws/antoniorwserra.com/assets/18173049/a08c7554-0fce-439b-930a-08f10b62aa32)
 
 ## Building with
 React - https://react.dev/
