@@ -22,17 +22,19 @@ li {
   
 }
 
-li:hover{
-  transition-duration: 0.3s;
-  opacity: 0.5;
-}
-
 a {
   border: 0px;
   position: relative;
   color: var(--colors-primary);
   text-decoration: none;
   transition: opacity 2s ease-in-out;
+}
+
+@media screen and (min-width: 600px) {
+  header li:hover{
+    transition-duration: 0.3s;
+    opacity: 0.5;
+  }
 }
 
 @media screen and (min-width: 700px){
@@ -45,3 +47,4 @@ a {
       flex-basis: initial;
   }
 }
+
