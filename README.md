@@ -1,7 +1,10 @@
 # Portfolio
-Loading...
+Loading...<br/>
+_If you want something like this, just clone this repository_
 
-### _If you want something like this, just clone this repository_
+## Technology Stack
+- **Front-end:** [React](https://reactjs.org/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
 ## So far
 
@@ -14,6 +17,3 @@ Loading...
 ### Articles
 
 ![image](https://github.com/antoniorws/antoniorwserra.com/assets/18173049/a08c7554-0fce-439b-930a-08f10b62aa32)
-
-## Building with
-React - https://react.dev/
