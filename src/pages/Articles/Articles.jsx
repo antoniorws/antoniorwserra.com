@@ -1,7 +1,7 @@
 import React from 'react';
 import CardList from '../../components/CardList/CardList';
 import './Articles.css'
-import DevTo from '../../hook/DevTo';
+import DevTo from '../../hooks/DevTo';
 
 function Articles(){
 
@@ -11,8 +11,7 @@ function Articles(){
                 {articlesDevTo.map(article => (
                     <CardList article = {article}/>
                 ))}
-            </ul>
-           
+            </ul>         
 };
 
 export default Articles;

@@ -1,5 +1,5 @@
 main{
-  min-height: 350px;
+  min-height: 400px;
 }
 .name{
   margin-bottom: 1%;
@@ -14,7 +14,7 @@ main{
   color: black;
 }
 
-.name, .softwareDeveloper{
+.name, .softwareDeveloper, footer{
   animation: showName;
   animation-duration: 3s;
   opacity: 0.7;
