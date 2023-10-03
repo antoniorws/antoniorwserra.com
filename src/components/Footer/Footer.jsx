@@ -9,9 +9,9 @@ function Footer(){
         <footer>
             <nav>
                 <ul>
-                    <li><a href=""><img src={gitHubImage} /></a></li>
-                    <li><a href=""><img src={linkedInImage} /></a></li>
-                    <li><a href=""><img src={instagramImage} /></a> </li>
+                    <li><a target='_blank' href="https://github.com/antoniorws"><img src={gitHubImage} /></a></li>
+                    <li><a target='_blank' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><img src={linkedInImage} /></a></li>
+                    <li><a target='_blank' href="https://www.instagram.com/antoniowserra/"><img src={instagramImage} /></a> </li>
                 </ul>
             </nav>
         </footer>
