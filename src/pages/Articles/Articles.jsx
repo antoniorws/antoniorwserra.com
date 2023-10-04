@@ -1,7 +1,7 @@
 import React from 'react';
 import CardList from '../../components/CardList/CardList';
 import './Articles.css'
-import DevTo from '../../hooks/DevTo';
+import DevTo from '../../services/DevTo';
 
 function Articles(){
 
