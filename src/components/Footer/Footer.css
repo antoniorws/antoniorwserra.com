@@ -5,6 +5,11 @@ footer{
   position: static;
 }
 
+footer p {
+  font-size: smaller;
+  margin: 0 0 10px 0;
+}
+
 footer nav {
   text-align: center;
 }

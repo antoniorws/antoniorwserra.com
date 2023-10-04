@@ -13,6 +13,7 @@ function Footer(){
                     <li><a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><img alt='LinkedIn' src={linkedInImage} /></a></li>
                     <li><a target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><img alt='Instagram' src={instagramImage} /></a> </li>
                 </ul>
+                <p>Antonio Serra • © 2023</p>
             </nav>
         </footer>
     )

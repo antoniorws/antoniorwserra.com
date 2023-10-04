@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Typed from "react-typed";
 
 function Home(){
     return (
@@ -8,8 +9,12 @@ function Home(){
                 <h1 class="name">Antonio Serra</h1>
                 <strong>
                     <div class="softwareDeveloper">
-                        <span class="software">Software </span>
-                        <span class="developer">Developer</span>
+                        <Typed
+                            strings={[
+                            "Software Developer",
+                            ]}
+                            typeSpeed={150}
+                        />
                     </div>
                 </strong>
             </div>
