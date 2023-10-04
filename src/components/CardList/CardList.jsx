@@ -2,7 +2,7 @@ import React from 'react';
 import './CardList.css'
 
 function CardList(props){
-    return <a target="_blank" href={props.article.url}>
+    return <a target="_blank" rel="noreferrer" href={props.article.url}>
                 <li class="cardList" key={props.article.id}>
                     <img src={props.article.cover_image} alt="" />
                     <strong>{props.article.title}</strong>

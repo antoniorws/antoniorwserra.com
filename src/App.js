@@ -12,10 +12,10 @@ function App() {
         <div className="App">
             <Header/>
             <Switch>
-                <Route path={"/index"} component={Home}/>
                 <Route path={"/about"} component={About}/>
                 <Route path={"/articles"} component={Articles}/>
-                <Redirect to={"/index"}/>
+                <Route path="/" component={Home}/>
+                <Redirect to="/"/>
             </Switch> 
             <Footer/>
         </div>
