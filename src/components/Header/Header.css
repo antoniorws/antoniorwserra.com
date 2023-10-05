@@ -15,11 +15,13 @@ ul{
   border-radius: 30px;
 }
 
-li {
+header li {
   display: list-item;
   text-align: -webkit-match-parent;
-  margin: 1em;
-  
+  width: 15vh;
+  height: 4vh;
+  margin: 5% 0;
+  border-radius: 15px;
 }
 
 a {
@@ -31,9 +33,9 @@ a {
 }
 
 @media screen and (min-width: 600px) {
-  header li:hover{
-    transition-duration: 0.3s;
-    opacity: 0.5;
+  header ul li:hover{
+    transition-duration: 0.7s;
+    background: #2a2a2a;
   }
 }
 
