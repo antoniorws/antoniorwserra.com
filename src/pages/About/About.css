@@ -6,26 +6,40 @@
     border-radius: 70px;
     padding: 2em;
 }
+
+.div-image-about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
   
 .title{
     font-size: 1.5em;
     font-weight: 100;
 }
 
-@media screen and (min-width: 700px){
-    .about{
-        margin: -2em 10em 3em 10em;
-    }
-  }
+.div-image-about img{
+    width: 80%;
+    border-radius: 70px;
+}
   
-@media screen and (min-width: 900px){
+@media screen and (min-width: 700px){
+    
     .about{
-        margin: 4em 15em 4em 15em;
+        margin: -5em 5em 5em 5em;
+    }
+
+    .about .content {
+        display: flex;
+        text-align: justify;
+        align-items: center;
+    }
+    .div-image-about img{
+        width: 50%;
+        border-radius: 70px;
     }
 }
 
 @media screen and (min-width: 1100px){
-    .about{
-        margin: 5em 25em 5em 25em;
-    }
+    
 }
