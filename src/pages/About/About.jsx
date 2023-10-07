@@ -8,7 +8,6 @@ function About(){
     return (  
       <main>
         <div class="about">
-            <p class="title">About me</p>
             <div class= "content">
               <div class="div-image-about">
                 <img src={aboutImg} alt="About Image" />
