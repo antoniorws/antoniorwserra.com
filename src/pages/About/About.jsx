@@ -1,8 +1,10 @@
 import React from 'react';
 import './About.css';
 import aboutImg from '../../assets/images/about.jpg';
+import { inject } from '@vercel/analytics';
 
 function About(){
+    inject();
     return (  
       <main>
         <div class="about">

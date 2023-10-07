@@ -1,8 +1,10 @@
 import React from 'react';
 import './Home.css';
 import Typed from "react-typed";
+import { inject } from '@vercel/analytics';
 
 function Home(){
+    inject();
     return (
         <main>
             <div>
