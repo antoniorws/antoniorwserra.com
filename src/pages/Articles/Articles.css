@@ -1,3 +1,7 @@
+.articlesDiv{
+    margin-top: 3em;
+}
+
 .articles  {
     height: 100%;
     flex-wrap: wrap;
@@ -5,6 +9,18 @@
     width: 80vw;
     gap: 16px;
     -webkit-box-pack: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 5px;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.articles a{
+    text-decoration: none;
 }
 
 header {
