@@ -6,7 +6,7 @@ const TabsNav = {
 }
 
 const TabsHighlight = styled.div`
-  background: hsl(0deg 1.89% 19.17%);
+  background: hsl(0deg 1.89% 14.06% / 87%);
   position: absolute;
   top: 9px;
   left: 0;
@@ -26,6 +26,7 @@ const Tab = styled.a`
   transition: color 250ms;
   font-weight: bold;
   text-decoration: none;
+  width: 70px;
 `;
 
 const tabsData = [
