@@ -5,6 +5,7 @@ import { inject } from '@vercel/analytics';
 
 function Home(){
     inject();
+    console.log("hi dev :D");
     return (
         <main>
             <div>
