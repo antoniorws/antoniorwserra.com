@@ -1,5 +1,13 @@
-.mainHome{
+.main-home{
+  margin-top: 3em;
   font-size: 2em;
+}
+
+.div-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .name{

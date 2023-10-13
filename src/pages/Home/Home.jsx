@@ -7,8 +7,8 @@ function Home(){
     inject();
     console.log("Hi Dev :D");
     return (
-        <main className="mainHome">
-            <div>
+        <main className="main-home">
+            <div class="div-home">
                 <h1 class="name">Antonio Serra</h1>
                 <strong>
                     <div class="softwareDeveloper">
