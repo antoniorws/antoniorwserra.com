@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import aboutImg from '../../assets/images/about.jpg';
+import aboutImg from '../assets/images/about.jpg';
 import { inject } from '@vercel/analytics';
 
 function About(){
