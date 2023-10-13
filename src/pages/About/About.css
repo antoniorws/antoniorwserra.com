@@ -1,6 +1,6 @@
-.about{
-    margin: -5em 0em 5em 0em;
-    font-size: 0.5em;
+.main-about{
+    margin: 0em 0em 5em 0em;
+    font-size: 1em;
     text-align: justify;
     background: linear-gradient(135deg, #1d1d1d 0%, #000000 20%);
     border-radius: 70px;
@@ -25,11 +25,11 @@
   
 @media screen and (min-width: 700px){
     
-    .about{
-        margin: -5em 5em 5em 5em;
+    .main-about{
+        margin: 0em 5em 5em 5em;
     }
 
-    .about .content {
+    .main-about .content {
         display: flex;
         text-align: justify;
         align-items: center;

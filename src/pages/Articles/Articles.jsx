@@ -8,13 +8,14 @@ function Articles(){
     inject();
     const articlesDevTo = DevTo();
 
-    return <div class="articlesDiv">
+    return <div class="articlesMain">
                 <ul class="articles">
                     {articlesDevTo.map(article => (
                         <CardList article = {article}/>
                     ))}
                 </ul>         
             </div>
+           
 };
 
 export default Articles;

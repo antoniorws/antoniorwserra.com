@@ -26,7 +26,6 @@ const Tab = styled.a`
   transition: color 250ms;
   font-weight: bold;
   text-decoration: none;
-  width: 70px;
 `;
 
 const tabsData = [
@@ -68,7 +67,7 @@ const Header = () => {
   const highlightStyles = {};
 
   if (tabBoundingBox && wrapperBoundingBox) {
-    highlightStyles.transitionDuration = isHoveredFromNull ? "0ms" : "450ms";
+    highlightStyles.transitionDuration = isHoveredFromNull ? "0ms" : "250ms";
     highlightStyles.opacity = highlightedTab ? 1 : 0;
     highlightStyles.width = `${tabBoundingBox.width}px`;
     highlightStyles.transform = `translate(${

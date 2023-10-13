@@ -7,7 +7,7 @@ function About(){
     inject();
     return (  
       <main>
-        <div class="about">
+        <main class="main-about">
             <div class= "content">
               <div class="div-image-about">
                 <img src={aboutImg} alt="About Image" />
@@ -19,7 +19,7 @@ function About(){
                   <p>I was also part of the technology area at Accenture focused on financial services, today I am part of China Systems.</p>
               </div>
             </div>
-        </div>
+        </main>
       </main>
     )
 }

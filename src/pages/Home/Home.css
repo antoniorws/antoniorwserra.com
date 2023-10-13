@@ -1,6 +1,7 @@
-main{
-  min-height: 380px;
+.mainHome{
+  font-size: 2em;
 }
+
 .name{
   margin-bottom: 1%;
 }
