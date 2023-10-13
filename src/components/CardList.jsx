@@ -2,16 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 function CardList(props){
-    return  <main>
-                <a target="_blank" rel="noreferrer" href={props.article.url}>
-                    <Li key={props.article.id}>
-                        <ImageLi src={props.article.cover_image} alt="" />
-                        <LiStrong>{props.article.title}</LiStrong>
-                        <PCard>{props.article.description}</PCard>
-                    </Li>
-                </a>
-            </main>
+    return  <A target="_blank" rel="noreferrer" href={props.article.url}>
+                <Li key={props.article.id}>
+                    <ImageLi src={props.article.cover_image} alt="" />
+                    <LiStrong>{props.article.title}</LiStrong>
+                    <PCard>{props.article.description}</PCard>
+                </Li>
+            </A>
 };
+
+const A = styled.a`
+    text-decoration: none;
+`;
 
 const Li = styled.li`
     width: 350px;
@@ -19,8 +21,7 @@ const Li = styled.li`
     border-radius: 10px;
     list-style: none;
     margin: 20px 16px;
-    animation: showItens;
-    animation-duration: 1s;
+    animation: 1s showItens;
     border: 0.5px solid black;
     opacity: 0.8;
     @media screen and (min-width: 600px) {
@@ -28,6 +29,11 @@ const Li = styled.li`
             border: rgba(183, 183, 183, 0.488) 0.5px solid;
             transition-duration: 0.3s;
             opacity: 1;
+        }
+    }
+    @keyframes showItens {
+        from {
+            opacity: 0;
         }
     }
 `;

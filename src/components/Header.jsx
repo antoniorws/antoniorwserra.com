@@ -62,6 +62,7 @@ const Header = () => {
 
 const TabsNav = styled.header`
   position: relative;
+  margin-bottom: 5%;
 `;
 
 const TabsHighlight = styled.div`
