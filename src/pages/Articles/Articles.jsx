@@ -1,5 +1,5 @@
 import React from 'react';
-import CardList from '../../components/CardList/CardList';
+import CardList from '../../components/CardList';
 import './Articles.css'
 import DevTo from '../../services/DevTo';
 import { inject } from '@vercel/analytics';
