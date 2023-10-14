@@ -21,17 +21,17 @@ function About(){
 }
 
 const MainAbout = styled.main`
-  margin: 0em 0em 5em 0em;
+  margin: 0em 1em 5em 1em;
   font-size: 1em;
-  text-align: justify;
+  text-align: left;
   background: linear-gradient(135deg, var(--background) 0%, var(--current-line) 10%);
   border-radius: 70px;
   padding: 2em;
 
-  @media screen and (min-width: 700px) {
-    margin: 0em 5em 5em 5em;
+  @media screen and (min-width: 900px) {
+    margin: 0em 10em 5em 10em;
     display: flex;
-    text-align: justify;
+    text-align: left;
     align-items: center;
   }
 `;
@@ -47,13 +47,12 @@ const DivImageAbout = styled.div`
 `;
 
 const DivImageAboutImg = styled.img`
-  width: 80%;
-  border-radius: 70px;
-  opacity: 0.8;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0.7;
 
   @media screen and (min-width: 700px) {
     width: 50%;
-    border-radius: 70px;
   }
 `;
 

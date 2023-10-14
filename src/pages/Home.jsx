@@ -47,7 +47,7 @@ const H1 = styled.h1`
 
 const DivSoftwareDeveloper = styled.div`
     border-radius: 50px;
-    background-image: linear-gradient(135deg, var(--orange) 0%, var(--purple) 60%, var(--pink) 80%);
+    background-image: linear-gradient(135deg, var(--orange) 0%, var(--purple) 50%, var(--pink) 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
