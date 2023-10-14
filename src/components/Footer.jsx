@@ -30,6 +30,7 @@ const FooterComponent = styled.footer`
 const P = styled.p`
     font-size: smaller;
     margin: 0 0 10px 0;
+    color: var(--gray);
 `;
 
 const SocialMediaNav = styled.nav`
@@ -50,11 +51,12 @@ const SocialMediaItem = styled.li`
     display: list-item;
     text-align: -webkit-match-parent;
     margin: 1em;
+    opacity: 0.5;
 
     @media screen and (min-width: 600px) {
         &:hover {
             transition-duration: 0.3s;
-            opacity: 0.5;
+            opacity: 1;
          }
     }
 `;

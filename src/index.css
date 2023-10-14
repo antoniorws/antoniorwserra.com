@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-primary: #f8f8f2c0;
+  --background: #1e2029;
+  --gray: #d8d9da9b;
+  --current-line: #44475a5a;
+  --purple: #bd93f981;
+  --pink: #FF79C6;
+  --orange: #FFB86C;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -14,7 +24,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000000;
+  background: var(--background);
   color: white;
   font-weight: normal;
   text-align: center;

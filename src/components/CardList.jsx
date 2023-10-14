@@ -22,11 +22,9 @@ const Li = styled.li`
     list-style: none;
     margin: 20px 16px;
     animation: 1s showItens;
-    border: 0.5px solid black;
     opacity: 0.8;
     @media screen and (min-width: 600px) {
         &:hover{
-            border: rgba(183, 183, 183, 0.488) 0.5px solid;
             transition-duration: 0.3s;
             opacity: 1;
         }
@@ -39,7 +37,7 @@ const Li = styled.li`
 `;
 
 const LiStrong = styled.strong`
-    color: rgb(183, 183, 183);
+    color: var(--color-primary);
     font-size: 1.25rem;
     font-weight: 500;
     padding: 0px 12px;
@@ -48,12 +46,18 @@ const LiStrong = styled.strong`
 const ImageLi = styled.img`
     width: 100%;
     border-radius: 10px;
+    &:hover{
+        transition: 0.2s;
+        transform-origin: center center;
+        transform: scale(1.03) rotate(0.5deg);
+        
+    }
 `;
 
 const PCard = styled.p`
     text-align: center;
     opacity: 0.8;
-    color: rgb(183, 183, 183);
+    color: var(--color-primary);
 `;
 
 

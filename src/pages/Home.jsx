@@ -8,7 +8,6 @@ function Home(){
     console.log("Hi Dev :D");
     return (<Main>
                 <H1>Antonio Serra</H1>
-                <strong>
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
@@ -17,7 +16,6 @@ function Home(){
                             typeSpeed={150}
                         />
                     </DivSoftwareDeveloper>
-                </strong>
             </Main>
     )
 }
@@ -37,6 +35,7 @@ const H1 = styled.h1`
     animation-duration: 2s;
     opacity: 0.7;
     font-size: 110%;
+    color: var(--color-primary);
     @keyframes showName {
         from {
           opacity: 0;
@@ -48,13 +47,17 @@ const H1 = styled.h1`
 
 const DivSoftwareDeveloper = styled.div`
     border-radius: 50px;
-    background-image: linear-gradient(135deg, rgb(133, 51, 153) 0%, rgb(35, 68, 95) 50%, rgba(64, 224, 208, 0.208) 70%);
+    background-image: linear-gradient(135deg, var(--orange) 0%, var(--purple) 60%, var(--pink) 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: black;
     opacity: 0.7;
     font-size: 110%;
+    font-weight: bold;
+    margin: 0 30%;
+    @media screen and (max-width: 500px) {
+        margin: 0;
+    }
 `;
 
 

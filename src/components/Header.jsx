@@ -66,7 +66,7 @@ const TabsNav = styled.header`
 `;
 
 const TabsHighlight = styled.div`
-  background: hsl(0deg 1.89% 14.06% / 87%);
+  background: var(--current-line);
   position: absolute;
   top: 9px;
   left: 0;
@@ -79,7 +79,7 @@ const TabsHighlight = styled.div`
 const Tab = styled.a`
   padding: 16px 12px;
   font-size: large;
-  color: hsl(0deg 6.65% 82.62%);
+  color: var(--color-primary);
   display: inline-block;
   position: relative;
   cursor: pointer;
