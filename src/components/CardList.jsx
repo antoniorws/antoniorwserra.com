@@ -13,6 +13,14 @@ function CardList(props){
 
 const A = styled.a`
     text-decoration: none;
+    background: linear-gradient(135deg, var(--current-line) 0%, var(--background) 50%, var(--current-line) 90%);
+    border-radius: 20px;
+    @media screen and (min-width: 600px) {
+        opacity: 0.7;
+        &:hover{
+            opacity: 1;
+        }
+    }
 `;
 
 const Li = styled.li`
@@ -22,7 +30,6 @@ const Li = styled.li`
     list-style: none;
     margin: 20px 16px;
     animation: 1s showItens;
-    opacity: 0.8;
     @media screen and (min-width: 600px) {
         &:hover{
             transition-duration: 0.3s;

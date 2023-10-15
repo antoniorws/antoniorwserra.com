@@ -24,7 +24,7 @@ const MainAbout = styled.main`
   margin: 0em 1em 5em 1em;
   font-size: 1em;
   text-align: left;
-  background: linear-gradient(135deg, var(--background) 0%, var(--current-line) 10%);
+  background: linear-gradient(135deg, var(--current-line) 0%, var(--background) 50%, var(--current-line) 90%);
   border-radius: 70px;
   padding: 2em;
 
