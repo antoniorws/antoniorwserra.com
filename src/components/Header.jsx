@@ -56,9 +56,16 @@ const Header = () => {
           {tab.title}
         </Tab>
       ))}
+      <Divider/>
     </TabsNav>
   );
 };
+
+const Divider = styled.div`
+  background: linear-gradient(135deg, var(--background) 0%, var(--current-line) 40%, var(--purple) 50%, var(--current-line) 60%);
+  height: 3px;
+  margin: 0 30%;
+`;
 
 const TabsNav = styled.header`
   position: relative;
