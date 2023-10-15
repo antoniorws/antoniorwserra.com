@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import Typed from "react-typed";
 import aboutImg from '../assets/images/about.jpg';
 import { inject } from '@vercel/analytics';
 
@@ -12,13 +13,26 @@ function About(){
               </DivImageAbout>
               <div>
                   <P>Very focused professional and very easy to work in a team.</P>
-                  <P><strong>I always look for innovation</strong>. On my journey I was part of MV Sistemas.</P>
+                  <P><Inovation><Typed
+                            strings={[
+                            "I always look for innovation.",
+                            ]}
+                            typeSpeed={50}
+                        /></Inovation> On my journey I was part of MV Sistemas.</P>
                   <P>Learning the business rules of the Hospital area (mainly the Supplies area).</P>
                   <P>I was also part of the technology area at Accenture focused on financial services, today I am part of China Systems.</P>
               </div>
         </MainAbout>
     )
 }
+
+const Inovation = styled.div`
+background-image: linear-gradient(135deg, var(--purple) 0%, var(--pink) 70%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+`;
 
 const MainAbout = styled.main`
   margin: 0em 1em 5em 1em;
