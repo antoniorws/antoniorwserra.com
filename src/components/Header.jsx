@@ -16,6 +16,11 @@ const tabsData = [
     title: "Articles",
     value: "articles",
     href: "./articles"
+  },
+  {
+    title: "Projects",
+    value: "projects",
+    href: "./projects"
   }
 ];
 

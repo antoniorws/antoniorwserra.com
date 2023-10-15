@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from './pages/Home';
 import About from './pages/About';
 import Articles from './pages/Articles';
+import Projects from "./pages/Projects";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Switch>
                 <Route path={"/about"} component={About}/>
                 <Route path={"/articles"} component={Articles}/>
+                <Route path={"/projects"} component={Projects}/>
                 <Route path="/" component={Home}/>
                 <Redirect to="/"/>
             </Switch> 
