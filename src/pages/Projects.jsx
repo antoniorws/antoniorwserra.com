@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import JavaImage from '../assets/images/JavaImage.png';
 import ThisSiteImage from '../assets/images/ThisSiteImage.png'
+import { inject } from '@vercel/analytics';
 
 const cardProjects = [
   {
@@ -21,20 +22,20 @@ const cardProjects = [
 ];
 
 function Projects(){
-
-    return <Main>
-                <Ul>
-                    {cardProjects.map(project => (
-                      <A target="_blank" rel="noreferrer" href={project.url}>
-                        <Li key={project.value}>
-                            <ImageLi src={project.image} alt="" />
-                            <LiStrong>{project.title}</LiStrong>
-                            <PCard>{project.description}</PCard>
-                        </Li>
-                      </A>
-                    ))}
-                </Ul>         
-            </Main>
+  inject();
+  return <Main>
+              <Ul>
+                  {cardProjects.map(project => (
+                    <A target="_blank" rel="noreferrer" href={project.url}>
+                      <Li key={project.value}>
+                          <ImageLi src={project.image} alt="" />
+                          <LiStrong>{project.title}</LiStrong>
+                          <PCard>{project.description}</PCard>
+                      </Li>
+                    </A>
+                  ))}
+              </Ul>         
+          </Main>
 };
 
 const Main = styled.main`
