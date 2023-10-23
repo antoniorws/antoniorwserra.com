@@ -13,8 +13,8 @@ const cardProjects = [
     image: ThisSiteImage
   },
   {
-    title: "Trail Java",
-    value: "Trail java",
+    title: "Roadmap Java",
+    value: "Roadmap Java",
     description: "A GitHub repository with a primary Java trail to start your carrer in Java world.",
     url: "https://github.com/antoniorws/basic-java",
     image: JavaImage
