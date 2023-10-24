@@ -33,7 +33,6 @@ const H1 = styled.h1`
     margin-bottom: 1%;
     animation: showName;
     animation-duration: 2s;
-    
     font-size: 110%;
     color: var(--color-primary);
     @keyframes showName {
