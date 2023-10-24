@@ -13,7 +13,7 @@ function Home(){
                             strings={[
                             "Software Developer",
                             ]}
-                            typeSpeed={150}
+                            typeSpeed={100}
                         />
                     </DivSoftwareDeveloper>
             </Main>
