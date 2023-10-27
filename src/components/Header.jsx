@@ -67,8 +67,8 @@ const Header = () => {
 };
 
 const Divider = styled.div`
-  background: linear-gradient(135deg, var(--background) 0%, var(--current-line) 40%, var(--current-line) 60%);
-  height: 3px;
+  background: var(--current-line);
+  height: 1px;
   margin: 0 30%;
 `;
 
