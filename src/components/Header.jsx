@@ -83,21 +83,25 @@ const TabsHighlight = styled.div`
   top: 9px;
   left: 0;
   border-radius: 4px;
-  height: 40px;
+  height: 30px;
   transition: 0.15s ease;
   transition-property: width, transform, opacity;
 `;
 
 const Tab = styled.a`
-  padding: 16px 12px;
-  font-size: large;
+  padding: 10px 12px;
+  font-size: medium;
   color: var(--color-primary);
+  opacity: 0.5;
   display: inline-block;
   position: relative;
   cursor: pointer;
   transition: color 250ms;
-  font-weight: bold;
   text-decoration: none;
+  &:hover{
+    opacity: 1;
+    transition: 500ms;
+  }
 `;
 
 export default Header;
