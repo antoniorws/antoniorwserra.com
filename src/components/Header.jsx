@@ -100,7 +100,7 @@ const Tab = styled.a`
   text-decoration: none;
   &:hover{
     opacity: 1;
-    transition: 500ms;
+    transition: 250ms;
   }
 `;
 
