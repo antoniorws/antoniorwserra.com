@@ -61,7 +61,7 @@ const Ul = styled.ul`
 
 const A = styled.a`
   text-decoration: none;
-  background: linear-gradient(135deg, var(--current-line) 0%, var(--background) 50%, var(--current-line) 90%);
+  background: var(--current-line);
   border-radius: 20px;
   @media screen and (min-width: 600px) {
       opacity: 0.7;

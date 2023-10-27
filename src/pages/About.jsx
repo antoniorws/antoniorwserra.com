@@ -38,7 +38,7 @@ const MainAbout = styled.main`
   margin: 0em 1em 5em 1em;
   font-size: 1em;
   text-align: left;
-  background: linear-gradient(135deg, var(--current-line) 0%, var(--background) 50%, var(--current-line) 90%);
+  background: var(--current-line);
   border-radius: 70px;
   padding: 2em;
 
@@ -64,7 +64,11 @@ const DivImageAboutImg = styled.img`
   width: 100%;
   border-radius: 20px;
   opacity: 0.7;
-
+  transition: 250ms;
+  &:hover{
+    opacity: 1;
+    transition: 250ms;
+  }
   @media screen and (min-width: 700px) {
     width: 50%;
   }
