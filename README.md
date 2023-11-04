@@ -1,5 +1,4 @@
 # My Web Site
-_If you want something like this, just clone this repository_
 
 ## Technology Stack
 - **Front-end:** [React](https://reactjs.org/)
