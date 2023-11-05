@@ -5,4 +5,4 @@
 - **Deployment:** [Vercel](https://vercel.com/)
 
 ## Colors
-- **Inspired by the dracula theme** [Dracula](https://draculatheme.com/)
+- **Inspired by the [Dracula](https://draculatheme.com/) theme**
