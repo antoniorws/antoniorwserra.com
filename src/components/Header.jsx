@@ -50,7 +50,7 @@ const Header = () => {
     highlightStyles.width = `${tabBoundingBox.width}px`;
     highlightStyles.transform = `translate(${
       tabBoundingBox.left - wrapperBoundingBox.left
-    }px)`;
+    }px)`; 
   }
 
   return (
