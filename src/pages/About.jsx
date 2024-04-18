@@ -63,7 +63,7 @@ const DivImageAbout = styled.div`
 const DivImageAboutImg = styled.img`
   width: 100%;
   border-radius: 20px;
-  opacity: 0.7;
+  opacity: 1;
   transition: 250ms;
   &:hover{
     opacity: 1;
