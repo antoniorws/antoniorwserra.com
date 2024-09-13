@@ -3,15 +3,16 @@ import styled from 'styled-components';
 import gitHubImage from '../assets/images/github.png';
 import linkedInImage from '../assets/images/linkedin.png';
 import instagramImage from '../assets/images/instagram.png';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Footer(){
     return (
         <FooterComponent>
             <SocialMediaNav>
                 <SocialMediaList>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/antoniorws"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
+                    <SocialMediaItem><SpeedInsights /><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/antoniorws"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SpeedInsights /><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SpeedInsights /><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
                 </SocialMediaList>
                 <P>Antonio Serra • © 2024</P>
             </SocialMediaNav>

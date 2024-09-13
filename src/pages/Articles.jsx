@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import DevTo from '../services/DevTo';
 import { inject } from '@vercel/analytics';
 import styled from 'styled-components';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Articles(){
     inject();
@@ -10,6 +11,7 @@ function Articles(){
 
     return <Main>
                 <Ul>
+                    <SpeedInsights />
                     {articlesDevTo.map(article => (
                         <CardList article = {article}/>
                     ))}
