@@ -14,7 +14,7 @@ function Footer(){
                     <SocialMediaItem><SpeedInsights /><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
                     <SocialMediaItem><SpeedInsights /><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
                 </SocialMediaList>
-                <P>Antonio Serra • © 2024</P>
+                <P>Antonio Serra • © 2025</P>
             </SocialMediaNav>
         </FooterComponent>
     )
