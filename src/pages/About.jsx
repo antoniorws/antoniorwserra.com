@@ -18,9 +18,8 @@ function About(){
                             "I always look for innovation.",
                             ]}
                             typeSpeed={50}
-                        /></Inovation> On my journey I was part of MV Sistemas.</P>
-                  <P>Learning the business rules of the Hospital area (mainly the Supplies area).</P>
-                  <P>I was also part of the technology area at Accenture focused on financial services, today I am part of China Systems.</P>
+                        /></Inovation> 
+                  </P>
               </div>
         </MainAbout>
     )
@@ -36,7 +35,7 @@ font-weight: bold;
 
 const MainAbout = styled.main`
   margin: 0em 1em 5em 1em;
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
   background: var(--current-line);
   border-radius: 70px;
