@@ -35,7 +35,7 @@ font-weight: bold;
 
 const MainAbout = styled.main`
   margin: 0em 1em 5em 1em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: left;
   background: var(--current-line);
   border-radius: 70px;
